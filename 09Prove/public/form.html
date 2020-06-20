@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Mail Submission Form</title>
+</head>
+<body>
+	<h1>Mail Rate Form</h1>
+	<form action="/mail" method="get">
+		<select name="mailType">
+			<option>Letters (Stamped)</option>
+			<option>Letters (Metered)</option>
+			<option>Large Envelopes (Flats)</option>
+			<option>First-Class Package Service-Retail</option>
+		</select>
+
+		<br><br>
+		Weight: <br>
+		<!--Pounds:<input type="number" name="pounds" placeholder="1" step="1" min="0" max="999">
+		<br><br>-->
+		Ounces: <input type="number" name="ounces" placeholder="1" step="1" min="0" max="16">
+		<input type="submit" value="Get Result">
+
+	</form>
+</body>
+</html>
