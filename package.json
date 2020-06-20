@@ -1,6 +1,6 @@
 {
   "scripts":{
-	"start":"node index.js"
+	"start":"09Prove/node index.js"
   },
   "name": "learningnode",
   "version": "1.0.0",
