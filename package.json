@@ -1,7 +1,12 @@
 {
-  "scripts":{
-	"start":"09Prove/node index.js"
-  },
+  "scripts": {
+"dev": "react-scripts start",
+"start": "serve -s build",
+"build": "react-scripts build",
+"test": "react-scripts test --env=jsdom",
+"eject": "react-scripts eject",
+"heroku-postbuild": "npm run build"
+},
   "name": "learningnode",
   "version": "1.0.0",
   "description": "Repository for learning Node",
