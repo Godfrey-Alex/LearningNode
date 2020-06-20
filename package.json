@@ -1,4 +1,7 @@
 {
+  "scripts":{
+	"start":"node index.js"
+  },
   "name": "learningnode",
   "version": "1.0.0",
   "description": "Repository for learning Node",
